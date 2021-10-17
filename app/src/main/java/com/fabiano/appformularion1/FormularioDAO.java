@@ -30,7 +30,7 @@ public class FormularioDAO {
         ContentValues valores = new ContentValues();
         valores.put( "nome", formulario.getNome() );
         valores.put( "email", formulario.getEmail() );
-        valores.put( "profissao", formulario.getProfissao() );
+        valores.put( "profissao", formulario.getProfissao());
 
         db.update("formularios", valores,
                 " id = " + formulario.getId(), null);

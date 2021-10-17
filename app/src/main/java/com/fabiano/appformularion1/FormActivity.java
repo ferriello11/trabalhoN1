@@ -54,13 +54,13 @@ public class FormActivity extends AppCompatActivity {
             txtProfissao.setText("");
         }
     }
-
-    private void carregarFormulario(int idForm){
-        Formulario form = FormularioDAO.getFormularioById(this, idForm);
-        txtNome.setText( form.getNome() );
-        txtEmail.setText( form.getEmail() );
-        txtProfissao.setText( form.getProfissao() );
-
-    }
+//
+//    private void carregarFormulario(int idForm){
+//        Formulario form = FormularioDAO.getFormularioById(this, idForm);
+//        txtNome.setText( form.getNome() );
+//        txtEmail.setText( form.getEmail() );
+//        txtProfissao.setText( form.getProfissao() );
+//
+//    }
 }
 
